@@ -3388,6 +3388,35 @@ Copyright (c) 2015 Daniel Eden
       opacity: 0.5;
   }
 }
+
+/* Keyframes for gradient animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* Keyframes for pulse animation */
+@keyframes pulseAnimation {
+  0% {
+    transform: scale(0.8); /* Starting size smaller */
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2); /* Expanding the circle */
+    opacity: 0.6; /* Slight transparency */
+  }
+  100% {
+    transform: scale(0.8); /* Shrinking back */
+    opacity: 1; /* Full opacity */
+  }
+}
+
 #typed-output {
   border-right: 0.15em solid #000;
   white-space: nowrap;

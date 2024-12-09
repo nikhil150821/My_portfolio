@@ -12,11 +12,17 @@
 *
 * ======================================================= */
 body {
-  background-image: linear-gradient(rgb(30, 16, 121), white);
+  /* background-image: linear-gradient(rgb(30, 16, 121), white); */
+  background: linear-gradient(205deg,#403a5f, #000B58,#cbbcf1,#5146d7);
   font-family: "Rubik", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
+  background-size: 300% 300%;
+  animation: gradientAnimation 2s ease infinite;
   color: #000000; }
   @media screen and (max-width: 992px) {
     body {
@@ -142,6 +148,9 @@ figure {
 
 #colorlib-aside {
   padding-top: 1em;
+  background: linear-gradient(135deg,#F6F1E9, #A6F6FF,#A084E8,#5146d7);
+  background-size: 300%,300%;
+  animation: gradientAnimation 5s ease infinite;
   padding-bottom: 40px;
   padding-right: 85px;
   border-radius: 0 0 60px 60px;
