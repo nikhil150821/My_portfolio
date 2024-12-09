@@ -12,8 +12,7 @@
 *
 * ======================================================= */
 body {
-  /* background-image: linear-gradient(rgb(30, 16, 121), white); */
-  background: linear-gradient(205deg,#403a5f, #000B58,#cbbcf1,#5146d7);
+  background-image: linear-gradient(rgb(30, 16, 121), white);
   font-family: "Rubik", Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -214,7 +213,7 @@ figure {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
@@ -223,7 +222,7 @@ figure {
           text-decoration: none;
           position: relative;
           padding: 10px 0;
-          font-family: "Quicksand", Arial, sans-serif;
+          font-family: "Cursive";
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
           transition: 0.3s; }
